@@ -1,23 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import { DirectLine } from 'botframework-directlinejs';
+import ReactWebChat from 'botframework-webchat';
+var directLine = new DirectLine({
+   secret: 'I4yzuxbLYhs.8KqueIfQntg54OI9sv2lB2R6iKteiI_kolUdwDEw4P0'
+ });
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ReactWebChat directLine={ directLine } username='test' />
     </div>
   );
 }

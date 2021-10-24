@@ -27,7 +27,7 @@ function App() {
         sendBoxBackground: '#3a3b3c',
         sendBoxBorderTop: 'solid 1px #3a3b3c',
         sendBoxTextColor: 'white',
-        rootHeight: (window.innerHeight * 0.91) + 'px',
+        rootHeight: (window.innerHeight * 0.903) + 'px',
         rootWidth: '100%'
       }} />
     </div>

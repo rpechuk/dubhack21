@@ -19,6 +19,8 @@ function App() {
         bubbleBorderRadius: 20,
         bubbleBorderColor: '#e67e00',
         bubbleBackground: '#e67e00',
+        bubbleFromUserBackground: '#e67e00',
+        bubbleFromUserBorderColor: '#e67e00',
         bubbleNubSize: 10,
         bubbleNubOffset: 'bottom',
         bubbleTextColor: 'white',

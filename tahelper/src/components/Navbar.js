@@ -17,14 +17,8 @@ export default function ButtonAppBar() {
         <Toolbar>
           <img src={logo} alt="logo" width="99" height = {(window.innerHeight * 0.09) + 'px'}/>
           <Typography style={{ flexGrow: 6}}></Typography>
-          <Button color="inherit" component="div" sx={{ flexGrow: 0.6}} style={{textTransform: 'none'}}>
-            <Typography variant="h6" style={{fontWeight: 200}}>About us</Typography>
-          </Button>
-          <Button variant="h6" color="inherit" component="div" sx={{ flexGrow: 1}} style={{textTransform: 'none'}}>
-            <Typography variant="h6" style={{fontWeight: 200}}>TA Portal</Typography>
-          </Button>
           <Button color="inherit" variant="outlined">
-            <Typography variant="h7" style={{fontWeight: 200}}>LOGIN / SIGN UP</Typography>
+            <Typography variant="h7" style={{fontWeight: 200}}>About us</Typography>
           </Button>
         </Toolbar>
       </AppBar>

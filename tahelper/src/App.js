@@ -4,7 +4,7 @@ import { DirectLine } from 'botframework-directlinejs';
 import ReactWebChat from 'botframework-webchat';
 import Navbar from './components/Navbar';
 var directLine = new DirectLine({
-   secret: '10o3qCCaNnM.wowdh1jFid6DGI0n-HIjnrW5hWfJiLivivCd6y5mOO8'
+   secret: 'LW9ArQ_qEqQ.zlRv9kcpWU34CFCzawP7VFcyLF810GlOT1kIwMK2AqY'
  });
 
 function App() {
